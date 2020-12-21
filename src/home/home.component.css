@@ -1,0 +1,63 @@
+.header
+{
+    height: 100px;
+    width: auto;
+    /* padding: 10px; */
+    display: block;
+    margin: 0 auto;
+    float: left;
+}
+
+.background
+{
+    background-color: #AE0712;
+    position: relative;
+    overflow-x: hidden;
+    top:0;
+    right:0;
+    bottom:0;
+    left:0;
+}
+
+.right
+{
+    float: right;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.title
+{
+    /*padding: 0,0,5,0 px;*/
+    color: white;
+    font-size: 45px;
+    font-family: Roboto-Black;
+    margin-left: 32px;
+    /* font-weight: 900; */
+}
+
+.paragraph
+{
+  color:white;
+  font-size: 25px;
+  margin-left: 45px;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.icon_style
+{
+    margin-left: 45px;
+    margin-bottom: 15px;
+    width: 40px;
+    height: 40px;
+}
+
+.a_style
+{
+  color:white;
+  font-size: 20px;
+  margin-left: 20px;
+  font-weight: normal;
+}
+

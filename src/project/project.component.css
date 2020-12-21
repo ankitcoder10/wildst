@@ -1,0 +1,39 @@
+.project{
+    padding: unset !important;
+}
+
+.header{
+    padding: 0 0 3%;
+}
+
+.header_text {
+    color: #AE0712;
+    width: auto;
+    font-family: Roboto;
+    margin-left: 25px;
+}
+
+.heading
+{
+    color: #AE0712;
+    font-family: Roboto;
+    font-weight: 900;
+    font-size: 2.25em;
+    margin-left: 25px;
+}
+
+.footer
+{
+    height: 4em;
+    background-color: #AE0712;
+    padding: unset;
+}
+
+.body
+{
+    color: #AE0712;
+    font-size: 1.25em;
+    font-weight: 400;
+    font-family: Roboto;
+    margin-left: 25px;
+}
