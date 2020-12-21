@@ -1,7 +1,7 @@
 {
   "name": "wildart-studio",
   "version": "0.0.0",
-  "homepage": "http://digicreative.in/",
+  "homepage": ".",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
