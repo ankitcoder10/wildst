@@ -47,7 +47,7 @@
 
 .icon_style
 {
-    margin-left: 36px;
+    margin-left: 20px;
     margin-bottom: 15px;
     width: 40px;
     height: 40px;
@@ -62,15 +62,15 @@
 }
 
 .home-links__icon {
-    color: #f66;
-    display: inline-block;
-    font-size: 2.5em;
-    margin: 0 7.5%;
+  text-decoration: none;
+}
+
+.home-links__icon img {
     transition: transform 125ms ease-in-out;
 }
 
 
-.home-links__icon:hover {
+.home-links__icon:hover img {
   -webkit-transform: scale(1.3);
   -moz-transform: scale(1.3);
   -ms-transform: scale(1.3);
