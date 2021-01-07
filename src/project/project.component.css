@@ -12,6 +12,9 @@
     font-family: Roboto;
     margin-left: 25px;
 }
+.header_text img{
+    margin-left: -5px;
+}
 
 .heading
 {
