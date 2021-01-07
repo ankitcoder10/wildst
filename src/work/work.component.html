@@ -10,9 +10,9 @@
             <br/>
             <br/>
             <br/>
-            <p class="title">WILD</p>
+            <a class="a_style" routerLink="/home"><p class="title">WILD</p>
             <p class="title">ART</p>
-            <p class="title">STUDIO</p>
+            <p class="title">STUDIO</p></a>
             <p class="sub_menu"><a class="a_style" routerLink="/team">TEAM</a> | 
                 <a class="a_style" routerLink="/work"><u>WORK</u></a> | 
                 <a class="a_style" routerLink="/services">SERVICES</a>
@@ -21,19 +21,19 @@
         <div class="col-xs-1">
             <p class="vertical_line"></p>
         </div>
-        <div class="col-md-7">
-            <p style="font-size: 45px; font-weight: bolder; font: Robot; color: #AE0719; margin-right: 50px; text-align: center;">
+        <div class="col-md-7 text-center">
+            <p style="font-size: 45px; font-weight: bolder; font: Robot; color: #AE0719;">
                 WORK
             </p>
             
             <div class="col-xs-4">
-                <a routerLink="/work/graphic-design"><button type="button" class="btn btn-primary" class="button_style">GRAPHIC DESIGN</button></a>
+                <button type="button" class="btn btn-primary" class="button_style" (click)="openDialogCarousel($event)">GRAPHIC DESIGN</button>
             </div>
             <div class="col-xs-4">
-                <a routerLink="/work/video-showreel"><button type="button" class="btn btn-primary" class="button_style">VIDEO SHOWREEL</button></a>
+                <button type="button" class="btn btn-primary" class="button_style" (click)="openDialogCarousel($event)">VIDEO SHOWREEL</button>
             </div>
             <div class="col-xs-4">
-                <a routerLink="/work/motion-graphics-3d"><button type="button" class="btn btn-primary" class="button_style">MOTION GRAPHICS and 3D</button></a>
+                <button type="button" class="btn btn-primary" class="button_style" (click)="openDialogCarousel($event)">MOTION GRAPHICS and 3D</button>
             </div>
             
         </div>
