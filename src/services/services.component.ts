@@ -14,8 +14,8 @@ export class ServicesComponent  {
   {}
   openDialog(){
     this.dialog.open(ProjectComponent,{
-      width: "800px",
-      height: "500px"
+      width: "400px",
+      height: "396px"
     });
   }
 }
