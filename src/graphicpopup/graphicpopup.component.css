@@ -1,7 +1,7 @@
-.project{
-    padding: unset !important;
-}
-img {
-  width: 100%;
-  height: 420px;
+/* Slider */
+.carousel-item {
+  height: 53vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
 }
