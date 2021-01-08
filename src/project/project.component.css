@@ -3,14 +3,13 @@
 }
 
 .header{
-    padding: 0 0 3%;
+    padding: 0;
 }
 
 .header_text {
     color: #AE0712;
     width: auto;
     font-family: Roboto;
-    margin-left: 25px;
 }
 .header_text img{
     margin-left: -5px;
@@ -22,6 +21,9 @@
     font-family: Roboto;
     font-weight: 900;
     font-size: 2.25em;
+}
+
+.desktop {
     margin-left: 25px;
 }
 
@@ -29,7 +31,13 @@
 {
     height: 4em;
     background-color: #AE0712;
-    padding: unset;
+    text-align: center;
+}
+
+.footer i {
+    margin: 10px 20px 0px 20px;
+    font-size:36px;
+    color:white;
 }
 
 .body
@@ -38,5 +46,10 @@
     font-size: 1.25em;
     font-weight: 400;
     font-family: Roboto;
-    margin-left: 25px;
+}
+
+@media screen and (max-width: 640px) {
+    .desktop{
+        margin-left: 0;
+    }
 }
