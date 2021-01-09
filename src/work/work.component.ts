@@ -21,7 +21,7 @@ export class WorkComponent  {
   openDialogCarousel(name : string) {
     this.dialog.open(GraphicpopupComponent,{
       width: "400px",
-      height: "396px",
+      height: "auto",
       data: name
     });
   }

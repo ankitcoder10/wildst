@@ -5,3 +5,11 @@
   background-position: center center;
   background-size: contain;
 }
+
+@media screen and (max-width: 640px) {
+
+	.carousel-item {
+	  height: 38vh;
+	}
+
+}

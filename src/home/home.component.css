@@ -1,8 +1,6 @@
 .header
 {
-    height: 100px;
-    width: auto;
-    /* padding: 10px; */
+    width: 200px;
     display: block;
     margin: 0 auto;
     float: left;
@@ -17,6 +15,7 @@
     right:0;
     bottom:0;
     left:0;
+    height: 100vh;
 }
 
 .right
@@ -69,6 +68,9 @@
     transition: transform 125ms ease-in-out;
 }
 
+.third{
+  padding-top: 5%;
+}
 
 .home-links__icon:hover img {
   -webkit-transform: scale(1.3);
@@ -76,4 +78,30 @@
   -ms-transform: scale(1.3);
   -o-transform: scale(1.3);
   transform: scale(1.3); 
+}
+
+
+@media screen and (min-width: 1920px) {
+
+  .header {
+    height: 30vh;
+    width: 350px;
+  }
+  .title{
+    height: 15vh;
+    font-size: 55px;
+  }
+  .second {
+    height: 10vh;
+  }
+  .paragraph {
+    font-size: 44px;
+  }
+  .icon_style {
+    width: 100px;
+    height: 5vh;
+  }
+  .a_style{
+    font-size: 40px;
+  }
 }
