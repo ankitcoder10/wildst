@@ -1,0 +1,21 @@
+/* Slider */
+.carousel-item {
+  height: 53vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: contain;
+}
+.video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width: 640px) {
+
+	.carousel-item {
+	  height: 38vh;
+	}
+
+}
