@@ -23,7 +23,8 @@ export class GraphicsComponent  {
     this.dialog.open(GraphicpopupComponent,{
       width: "800px",
       height: "500px",
-      data: name
+      data: name,
+      panelClass: 'my-custom-dialog-class'
     });
   }
 }
